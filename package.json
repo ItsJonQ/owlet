@@ -20,7 +20,7 @@
   "scripts": {
     "build": "node src/index.js",
     "start": "npm run build",
-    "publish": "vsce publish"
+    "release": "vsce publish"
   },
   "galleryBanner": {
     "color": "#1e222a",
