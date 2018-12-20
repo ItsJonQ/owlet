@@ -65,7 +65,7 @@ function generate() {
       const themePublishProps = {
         label: props.name,
         uiTheme: isDark(props) ? "vs-dark" : "vs-light",
-        path: themeFileName
+        path: `./themes/${themeFileName}`
       };
 
       // Log

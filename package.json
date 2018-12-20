@@ -41,12 +41,17 @@
       {
         "label": "Owlet (Default)",
         "uiTheme": "vs-dark",
-        "path": "owlet-theme-default.json"
+        "path": "./themes/owlet-theme-default.json"
       },
       {
         "label": "Owlet (Palenight)",
         "uiTheme": "vs-dark",
-        "path": "owlet-theme-palenight.json"
+        "path": "./themes/owlet-theme-palenight.json"
+      },
+      {
+        "label": "Owlet (Purple)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/owlet-theme-purple.json"
       }
     ]
   },
