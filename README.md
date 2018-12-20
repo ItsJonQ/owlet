@@ -10,6 +10,10 @@
 
 ![Default](https://raw.githubusercontent.com/ItsJonQ/owlet/master/images/owlet-default.jpg)
 
+### Dracula
+
+![Dracula](https://raw.githubusercontent.com/ItsJonQ/owlet/master/images/owlet-dracula.jpg)
+
 ### Palenight
 
 ![palenight](https://raw.githubusercontent.com/ItsJonQ/owlet/master/images/owlet-palenight.jpg)
