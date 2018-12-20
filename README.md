@@ -8,33 +8,49 @@
 
 ### Default
 
+> If you want something **dark** and relatively **neutral**.
+
 ![Default](https://raw.githubusercontent.com/ItsJonQ/owlet/master/images/owlet-default.jpg)
 
 ### Charcoal
+
+> If you want something **really dark** (almost **black**).
 
 ![Charcoal](https://raw.githubusercontent.com/ItsJonQ/owlet/master/images/owlet-charcoal.jpg)
 
 ### Dracula
 
+> If you want something **kinda dark** and with a **hint** of **purple**.
+
 ![Dracula](https://raw.githubusercontent.com/ItsJonQ/owlet/master/images/owlet-dracula.jpg)
 
 ### Night Owl
+
+> If you want something **dark**, **blue**, and **awesome**.
 
 ![Night Owl](https://raw.githubusercontent.com/ItsJonQ/owlet/master/images/owlet-night-owl.jpg)
 
 ### One
 
+> If you want something **kinda dark** and relatively **neutral**.
+
 ![One](https://raw.githubusercontent.com/ItsJonQ/owlet/master/images/owlet-one.jpg)
 
 ### Oceanic Next
+
+> If you want something **kinda dark** and with a **hint** of **green**.
 
 ![Oceanic Next](https://raw.githubusercontent.com/ItsJonQ/owlet/master/images/owlet-oceanic-next.jpg)
 
 ### Palenight
 
+> If you want something **kinda dark** and with **some** **purple**.
+
 ![palenight](https://raw.githubusercontent.com/ItsJonQ/owlet/master/images/owlet-palenight.jpg)
 
 ### Purple
+
+> If you want something **kinda dark** and with **lots** of **purple**.
 
 ![purple](https://raw.githubusercontent.com/ItsJonQ/owlet/master/images/owlet-purple.jpg)
 
