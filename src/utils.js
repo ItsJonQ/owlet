@@ -36,9 +36,14 @@ function getLineHighlightBackground(color = FALLBACK_COLOR) {
   return isTooDark(color) ? "#ffffff07" : "#0003";
 }
 
+function getListFocusBackground(color = FALLBACK_COLOR) {
+  return isTooDark(color) ? "#ffffff11" : "#0003";
+}
+
 module.exports = {
   getSelectionBackgroundColor,
   getLineHighlightBackground,
+  getListFocusBackground,
   isTooDark,
   isDark
 };

@@ -42,7 +42,7 @@
     "list.activeSelectionForeground": "#ffffff",
     "list.invalidItemForeground": "#975f94",
     "list.dropBackground": "#221e46",
-    "list.focusBackground": "#1a1736",
+    "list.focusBackground": "#0003",
     "list.focusForeground": "#ffffff",
     "list.highlightForeground": "#ffffff",
     "list.hoverBackground": "#221e46",

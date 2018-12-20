@@ -2,7 +2,8 @@ const { darken, lighten } = require("polished");
 const {
   isDark,
   getSelectionBackgroundColor,
-  getLineHighlightBackground
+  getLineHighlightBackground,
+  getListFocusBackground
 } = require("./utils");
 
 // Sensible defaults
@@ -78,7 +79,8 @@ function generateColorScheme(
     borderLight: `${borderColor}33`,
     // Computed
     selectionBackground: getSelectionBackgroundColor(background),
-    highlightLineBackground: getLineHighlightBackground(background)
+    highlightLineBackground: getLineHighlightBackground(background),
+    listFocusBackground: getListFocusBackground(background)
   };
 
   const remappedShades = {
@@ -91,7 +93,7 @@ function generateColorScheme(
 
     // List
     listInactiveSelectionBackground: shadeConfig.light,
-    listFocusBackground: shadeConfig.dark,
+    listFocusBackground: shadeConfig.listFocusBackground,
 
     // Text
     textPrimary: shadeConfig.text,
