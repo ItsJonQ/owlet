@@ -27,9 +27,19 @@ const shades = {
 
 I'll most likely continue to simplify and adjust as time passes. Using something like the [color](https://www.npmjs.com/package/color), I'll probably be able to achieve this with a single hex color value, leveraging the `lighten` and `darken` methods to generate the other shades.
 
-### Example
+## Preview
 
-![This is Owlet with a React file](./images/example-react.jpg)
+### Default
+
+![Default](./images/owlet-default.jpg)
+
+### Palenight
+
+![palenight](./images/owlet-palenight.jpg)
+
+### Purple
+
+![purple](./images/owlet-purple.jpg)
 
 ## Development
 
