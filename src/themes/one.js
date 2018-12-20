@@ -1,12 +1,12 @@
 const colors = require("../colors/default");
 
 const config = {
-  name: "Owlet (Dracula)",
+  name: "Owlet (One)",
   type: "dark"
 };
 
 const shades = {
-  background: "#282a36",
+  background: "#282c34",
   text: "#7d888d"
 };
 

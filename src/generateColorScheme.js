@@ -70,6 +70,7 @@ function generateColorScheme(
     textQuote: darken(0.04, text),
     // Borders
     border: `${borderColor}11`,
+    borderDark: `${borderColor}05`,
     borderLight: `${borderColor}33`
   };
 
@@ -89,6 +90,7 @@ function generateColorScheme(
     textPrimary: shadeConfig.text,
     textLight: shadeConfig.textLight,
     textLighter: shadeConfig.textLighter,
+    textDark: shadeConfig.textDark,
     cursor: shadeConfig.textLight,
     selectionBackground: shadeConfig.lighter,
     quote: shadeConfig.quote,
@@ -99,6 +101,9 @@ function generateColorScheme(
     activityBorder: shadeConfig.border,
     panelBorder: shadeConfig.borderLight,
     sidebarBorder: shadeConfig.border,
+    statusBarBorder: shadeConfig.borderDark,
+    tabBorder: shadeConfig.borderDark,
+    tabBorderInactive: shadeConfig.border,
     ruler: shadeConfig.text,
 
     // Badge
@@ -116,7 +121,15 @@ function generateColorScheme(
 
     // StatusBar
     statusBarBackground: shadeConfig.background,
-    statusBarText: shadeConfig.textDark
+    statusBarText: shadeConfig.text,
+    statusBarItemBackground: shadeConfig.dark,
+
+    // Preview
+    peekViewResultBackground: shadeConfig.lighter,
+
+    // Widget
+    editorWidgetBackground: shadeConfig.light,
+    editorWidgetBorder: shadeConfig.dark
   };
 
   // These are special colors only for the Terminal. Ideally, we'd want to
