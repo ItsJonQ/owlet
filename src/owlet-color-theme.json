@@ -1,6 +1,6 @@
 {
-  "name": "Owlet",
-  "type": "dark",
+  "name": "<%= name %>",
+  "type": "<%= type %>",
   "colors": {
     "contrastActiveBorder": "<%= focusBorder %>",
     "contrastBorder": "<%= focusBorder %>",
@@ -171,7 +171,7 @@
     "titleBar.inactiveForeground": null,
     "notifications.background": "<%= backgroundPrimary %>",
     "notifications.foreground": "<%= brightWhite %>cc",
-    "notificationLink.foreground": "#80CBC4",
+    "notificationLink.foreground": "<%= cyan %>",
     "extensionButton.prominentForeground": "<%= brightWhite %>cc",
     "extensionButton.prominentBackground": "<%= magenta %>cc",
     "extensionButton.prominentHoverBackground": "<%= magenta %>",
@@ -276,7 +276,7 @@
       "name": "Number",
       "scope": ["constant.numeric", "constant.character.numeric"],
       "settings": {
-        "foreground": "#F78C6C",
+        "foreground": "<%= orange %>",
         "fontStyle": ""
       }
     },
@@ -302,7 +302,7 @@
       "name": "Constant Character Escape",
       "scope": "constant.character.escape",
       "settings": {
-        "foreground": "#F78C6C"
+        "foreground": "<%= orange %>"
       }
     },
     {
@@ -367,7 +367,7 @@
       "name": "Class name",
       "scope": ["entity.name.class", "meta.class entity.name.type.class"],
       "settings": {
-        "foreground": "#ffcb8b"
+        "foreground": "<%= yellow %>"
       }
     },
     {
@@ -381,7 +381,7 @@
       "name": "Function name",
       "scope": "entity.name.function",
       "settings": {
-        "foreground": "#DCDCAA",
+        "foreground": "<%= blue %>",
         "fontStyle": ""
       }
     },
@@ -539,7 +539,7 @@
       "name": "Null",
       "scope": "constant.language.null",
       "settings": {
-        "foreground": "#ff5874"
+        "foreground": "<%= brightRed %>"
       }
     },
     {
@@ -561,14 +561,14 @@
       "name": "Punctuation Definition String",
       "scope": "punctuation.definition.string",
       "settings": {
-        "foreground": "#d9f5dd"
+        "foreground": "<%= brightGreen %>"
       }
     },
     {
       "name": "Boolean",
       "scope": "constant.language.boolean",
       "settings": {
-        "foreground": "#ff5874"
+        "foreground": "<%= brightRed %>"
       }
     },
     {
@@ -595,7 +595,7 @@
         "meta.property-list entity.name.tag"
       ],
       "settings": {
-        "foreground": "#80CBC4",
+        "foreground": "<%= cyan %>",
         "fontStyle": ""
       }
     },
@@ -610,7 +610,7 @@
       "name": "Constant Other Color RGB Value Punctuation Definition Constant",
       "scope": "constant.other.color.rgb-value punctuation.definition.constant",
       "settings": {
-        "foreground": "#F78C6C"
+        "foreground": "<%= orange %>"
       }
     },
     {
@@ -646,7 +646,7 @@
       "name": "Meta Property Name",
       "scope": "meta.property-name",
       "settings": {
-        "foreground": "#80CBC4"
+        "foreground": "<%= cyan %>"
       }
     },
     {
@@ -661,7 +661,7 @@
       "name": "Punctuation Definition Parameters",
       "scope": "punctuation.definition.parameters",
       "settings": {
-        "foreground": "#d9f5dd"
+        "foreground": "<%= brightGreen %>"
       }
     },
     {
@@ -696,7 +696,7 @@
       "name": "Variable Property Other object property",
       "scope": ["variable.other.object.property"],
       "settings": {
-        "foreground": "#d7dbe0",
+        "foreground": "<%= textLighter %>",
         "fontStyle": ""
       }
     },
@@ -711,7 +711,7 @@
       "name": "Entity Name Function",
       "scope": ["entity.name.function"],
       "settings": {
-        "foreground": "#DCDCAA",
+        "foreground": "<%= blue %>",
         "fontStyle": ""
       }
     },
@@ -778,7 +778,7 @@
       "scope": "invalid.broken",
       "settings": {
         "foreground": "#020e14",
-        "background": "#F78C6C"
+        "background": "<%= orange %>"
       }
     },
     {
@@ -861,7 +861,7 @@
         "punctuation.definition.list"
       ],
       "settings": {
-        "foreground": "#d9f5dd"
+        "foreground": "<%= brightGreen %>"
       }
     },
     {
@@ -906,7 +906,7 @@
       "name": "Raw Code",
       "scope": "raw",
       "settings": {
-        "foreground": "#80CBC4"
+        "foreground": "<%= cyan %>"
       }
     },
     {
@@ -990,7 +990,7 @@
         "variable.other.readwrite.js"
       ],
       "settings": {
-        "foreground": "#F78C6C"
+        "foreground": "<%= orange %>"
       }
     },
     {
@@ -1079,7 +1079,7 @@
         "source.go constant.other.placeholder.go"
       ],
       "settings": {
-        "foreground": "#ff5874"
+        "foreground": "<%= brightRed %>"
       }
     },
     {
@@ -1108,7 +1108,7 @@
       "name": "JavaScript Classes",
       "scope": "meta.class entity.name.type.class.js",
       "settings": {
-        "foreground": "#ffcb8b"
+        "foreground": "<%= yellow %>"
       }
     },
     {
@@ -1191,7 +1191,7 @@
       "name": "JavaScript Entity Name Type",
       "scope": ["entity.name.type.js", "entity.name.type.module.js"],
       "settings": {
-        "foreground": "#ffcb8b",
+        "foreground": "<%= yellow %>",
         "fontStyle": ""
       }
     },
@@ -1227,14 +1227,14 @@
       "name": "Strings in JSON values",
       "scope": "string.quoted.double.json punctuation.definition.string.json",
       "settings": {
-        "foreground": "#80CBC4"
+        "foreground": "<%= cyan %>"
       }
     },
     {
       "name": "Specific JSON Property values like null",
       "scope": "meta.structure.dictionary.json meta.structure.dictionary.value constant.language",
       "settings": {
-        "foreground": "#ff5874"
+        "foreground": "<%= brightRed %>"
       }
     },
     {
@@ -1283,7 +1283,7 @@
       "name": "Attribute Name for LESS",
       "scope": "meta.attribute-selector.less entity.other.attribute-name.attribute",
       "settings": {
-        "foreground": "#F78C6C"
+        "foreground": "<%= orange %>"
       }
     },
     {
@@ -1321,7 +1321,7 @@
       "name": "Markdown Raw Code + others",
       "scope": "markup.inline.raw.markdown",
       "settings": {
-        "foreground": "#80CBC4"
+        "foreground": "<%= cyan %>"
       }
     },
     {
@@ -1381,14 +1381,14 @@
       "name": "PHP Variables",
       "scope": ["variable.other.php", "variable.other.property.php"],
       "settings": {
-        "foreground": "#bec5d4"
+        "foreground": "<%= textLight %>"
       }
     },
     {
       "name": "Support Classes in PHP",
       "scope": "support.class.php",
       "settings": {
-        "foreground": "#ffcb8b"
+        "foreground": "<%= yellow %>"
       }
     },
     {
@@ -1416,7 +1416,7 @@
       "name": "Language Constants in Python",
       "scope": "constant.language.python",
       "settings": {
-        "foreground": "#ff5874"
+        "foreground": "<%= brightRed %>"
       }
     },
     {
@@ -1496,7 +1496,7 @@
         "source.css.sass meta.at-rule variable"
       ],
       "settings": {
-        "foreground": "#bec5d4"
+        "foreground": "<%= textLight %>"
       }
     },
     {
@@ -1506,7 +1506,7 @@
         "meta.attribute-selector.sass entity.other.attribute-name.attribute"
       ],
       "settings": {
-        "foreground": "#F78C6C"
+        "foreground": "<%= orange %>"
       }
     },
     {
@@ -1547,7 +1547,7 @@
       "name": "TypeScript[React] Entity Name Types",
       "scope": ["entity.name.type.ts", "entity.name.type.tsx"],
       "settings": {
-        "foreground": "#ffcb8b"
+        "foreground": "<%= yellow %>"
       }
     },
     {
@@ -1607,14 +1607,14 @@
       "name": "JavaScript Variable Other ReadWrite",
       "scope": ["variable.other.readwrite.js", "variable.parameter"],
       "settings": {
-        "foreground": "#d7dbe0"
+        "foreground": "<%= textLighter %>"
       }
     },
     {
       "name": "Support Class Component",
       "scope": ["support.class.component.js", "support.class.component.tsx"],
       "settings": {
-        "foreground": "#f78c6c",
+        "foreground": "<%= orange %>",
         "fontStyle": ""
       }
     },
@@ -1633,14 +1633,14 @@
       "name": "TypeScript Classes",
       "scope": "meta.class entity.name.type.class.tsx",
       "settings": {
-        "foreground": "#ffcb8b"
+        "foreground": "<%= yellow %>"
       }
     },
     {
       "name": "TypeScript Entity Name Type",
       "scope": ["entity.name.type.tsx", "entity.name.type.module.tsx"],
       "settings": {
-        "foreground": "#ffcb8b"
+        "foreground": "<%= yellow %>"
       }
     },
     {

@@ -18,7 +18,7 @@
     "Accessible Theme"
   ],
   "scripts": {
-    "build": "node src/index.js",
+    "build": "node src/generate.js",
     "start": "npm run build",
     "git:push": "git push --follow-tags",
     "postversion": "npm run release",
@@ -38,13 +38,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Owlet",
+        "label": "Owlet (Default)",
         "uiTheme": "vs-dark",
-        "path": "./themes/owlet-color-theme.json"
+        "path": "./themes/owlet-color-theme-default.json"
       }
     ]
   },
   "devDependencies": {
+    "glob": "7.1.3",
     "lodash.template": "4.4.0"
   }
 }

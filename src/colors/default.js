@@ -5,10 +5,31 @@ const shades = {
   lighter: "#3c4048",
   text: "#737e83",
   textLight: "#cad3e8",
+  textLighter: "#d7dbe0",
   textDark: "#555a6f",
   textQuote: "#697098",
   border: "#ffffff11",
   borderLight: "#ffffff33"
+};
+
+// These are the "Base16" colors we're to be using in our theme,
+const colors = {
+  // Base
+  red: "#EF5350",
+  green: "#addb67",
+  yellow: "#ffcb8b",
+  blue: "#82AAFF",
+  magenta: "#7e57c2",
+  orange: "#F78C6C",
+  cyan: "#80CBC4",
+  white: "#d6deeb",
+  // Bright
+  brightRed: "#ff5874",
+  brightGreen: "#d9f5dd",
+  brightYellow: "#ffeb95",
+  brightMagenta: "#c792ea",
+  brightCyan: "#7fdbca",
+  brightWhite: "#ffffff"
 };
 
 const aliases = {
@@ -25,6 +46,7 @@ const aliases = {
   // Text
   textPrimary: shades.text,
   textLight: shades.textLight,
+  textLighter: shades.textLighter,
   cursor: shades.textLight,
   selectionBackground: shades.lighter,
   quote: shades.quote,
@@ -54,28 +76,11 @@ const aliases = {
   statusBarText: shades.textDark
 };
 
-// 21c7a8 - cyan
-
-const colors = {
-  // Base
-  red: "#EF5350",
-  green: "#addb67",
-  yellow: "#ffcb8b",
-  blue: "#82AAFF",
-  white: "#d6deeb",
-  magenta: "#7e57c2",
-  orange: "#F78C6C",
-  // Bright
-  brightRed: "#ff5874",
-  brightMagenta: "#c792ea",
-  brightCyan: "#7fdbca",
-  brightWhite: "#bec5d4",
-  brightYellow: "#ffeb95",
-  brightWhite: "#ffffff"
-};
-
+// These are special colors only for the Terminal. Ideally, we'd want to
+// be using the same Base16 colors.
+// These will most likely be removed in the future.
 const termColors = {
-  termRed: "#EF5350",
+  termRed: colors.red,
   termCyan: "#21c7a8",
   termGreen: "#22da6e",
   termBlack: "#575656",
