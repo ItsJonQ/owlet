@@ -43,7 +43,7 @@ I'll most likely continue to simplify and adjust as time passes. Using something
 
 ## Development
 
-This project only has one dependency - [lodash.template](https://www.npmjs.com/package/lodash.template). It uses it to generate the VS Code `theme.json` file from the variables specified in the main `.js`.
+This project only has a couple of dependencies, which it uses to generate the VS Code `theme.json` files.
 
 To install the dependencies, run:
 
@@ -56,3 +56,31 @@ To build the theme file(s), run:
 ```
 npm start
 ```
+
+### Theme files
+
+An Owlet theme only really requires a single shade, which makes up the background.
+
+**Example**
+
+```js
+// themes/palenight.js
+const colors = require("../colors/default");
+
+const config = {
+  name: "Owlet (Palenight)",
+  type: "dark"
+};
+
+const shades = {
+  background: "#292d3e"
+};
+
+module.exports = {
+  config,
+  shades,
+  colors
+};
+```
+
+The theme is genearted into `/themes/`, with it's details added to `package.json` - ready for publishing!
