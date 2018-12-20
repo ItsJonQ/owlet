@@ -38,6 +38,8 @@
 
 ![purple](https://raw.githubusercontent.com/ItsJonQ/owlet/master/images/owlet-purple.jpg)
 
+The font in the above screenshots is [SF Mono](http://osxdaily.com/2018/01/07/use-sf-mono-font-mac/).
+
 ## Simple
 
 Sarah's (gorgeous) [Night Owl](https://github.com/sdras/night-owl-vscode-theme) is 90%+ perfect for me! There are just a couple of things that I wanted to adjust.
