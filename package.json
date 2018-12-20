@@ -12,6 +12,9 @@
   "keywords": [
     "Theme",
     "Owlet",
+    "One",
+    "Charcoal",
+    "Oceanic",
     "Purple",
     "Palenight",
     "One",
@@ -41,6 +44,11 @@
   "icon": "images/owlet.png",
   "contributes": {
     "themes": [
+      {
+        "label": "Owlet (Charcoal)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/owlet-theme-charcoal.json"
+      },
       {
         "label": "Owlet (Default)",
         "uiTheme": "vs-dark",

@@ -10,6 +10,10 @@
 
 ![Default](https://raw.githubusercontent.com/ItsJonQ/owlet/master/images/owlet-default.jpg)
 
+### Charcoal
+
+![Charcoal](https://raw.githubusercontent.com/ItsJonQ/owlet/master/images/owlet-charcoal.jpg)
+
 ### Dracula
 
 ![Dracula](https://raw.githubusercontent.com/ItsJonQ/owlet/master/images/owlet-dracula.jpg)
