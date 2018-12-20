@@ -1,5 +1,7 @@
 # 🦉 Owlet
 
+[![Version](https://vsmarketplacebadge.apphb.com/version/itsjonq.owlet.svg)](https://marketplace.visualstudio.com/items?itemName=itsjonq.owlet)
+
 > A modified version of the Night Owl VSCode Theme
 
 ## Simplify
