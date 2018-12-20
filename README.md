@@ -14,6 +14,10 @@
 
 ![Dracula](https://raw.githubusercontent.com/ItsJonQ/owlet/master/images/owlet-dracula.jpg)
 
+### One
+
+![One](https://raw.githubusercontent.com/ItsJonQ/owlet/master/images/owlet-one.jpg)
+
 ### Palenight
 
 ![palenight](https://raw.githubusercontent.com/ItsJonQ/owlet/master/images/owlet-palenight.jpg)
