@@ -20,8 +20,9 @@
   "scripts": {
     "build": "node src/index.js",
     "start": "npm run build",
+    "git:push": "git push --follow-tags",
     "postversion": "npm run release",
-    "release": "vsce publish"
+    "release": "vsce publish && npm run git:push"
   },
   "galleryBanner": {
     "color": "#1e222a",
