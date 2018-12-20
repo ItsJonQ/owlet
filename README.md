@@ -25,6 +25,10 @@ const shades = {
 
 I'll most likely continue to simplify and adjust as time passes. Using something like the [color](https://www.npmjs.com/package/color), I'll probably be able to achieve this with a single hex color value, leveraging the `lighten` and `darken` methods to generate the other shades.
 
+### Example
+
+![This is Owlet with a React file](./images/example-react.jpg)
+
 ## Development
 
 This project only has one dependency - [lodash.template](https://www.npmjs.com/package/lodash.template). It uses it to generate the VS Code `theme.json` file from the variables specified in the main `.js`.
