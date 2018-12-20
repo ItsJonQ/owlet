@@ -8,15 +8,15 @@
 
 ### Default
 
-![Default](./images/owlet-default.jpg)
+![Default](https://raw.githubusercontent.com/ItsJonQ/owlet/master/images/owlet-default.jpg)
 
 ### Palenight
 
-![palenight](./images/owlet-palenight.jpg)
+![palenight](https://raw.githubusercontent.com/ItsJonQ/owlet/master/images/owlet-palenight.jpg)
 
 ### Purple
 
-![purple](./images/owlet-purple.jpg)
+![purple](https://raw.githubusercontent.com/ItsJonQ/owlet/master/images/owlet-purple.jpg)
 
 ## Simple
 
@@ -69,4 +69,4 @@ module.exports = {
 };
 ```
 
-The theme is genearted into `/themes/`, with it's details added to `package.json` - ready for publishing!
+The theme is generated into `/themes/`, with it's details added to `package.json` - ready for publishing!
