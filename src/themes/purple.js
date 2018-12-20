@@ -2,12 +2,11 @@ const colors = require("../colors/default");
 
 const config = {
   name: "Owlet (Purple)",
-  type: "dark",
-  fontStyle: ""
+  type: "dark"
 };
 
 const shades = {
-  background: "#27234b",
+  background: "#221e46",
   text: "#897f93"
 };
 

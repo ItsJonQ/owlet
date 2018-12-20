@@ -83,6 +83,7 @@ function generateColorScheme(
 
     // List
     listInactiveSelectionBackground: shadeConfig.light,
+    listFocusBackground: shadeConfig.dark,
 
     // Text
     textPrimary: shadeConfig.text,
@@ -91,7 +92,7 @@ function generateColorScheme(
     cursor: shadeConfig.textLight,
     selectionBackground: shadeConfig.lighter,
     quote: shadeConfig.quote,
-    textSelectionBackground: shadeConfig.backgroundLight,
+    textSelectionBackground: shadeConfig.light,
 
     // Borders
     focusBorder: shadeConfig.light,

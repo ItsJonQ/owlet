@@ -42,7 +42,7 @@
     "list.activeSelectionForeground": "<%= brightWhite %>",
     "list.invalidItemForeground": "#975f94",
     "list.dropBackground": "<%= backgroundPrimary %>",
-    "list.focusBackground": "#010d18",
+    "list.focusBackground": "<%= listFocusBackground %>",
     "list.focusForeground": "<%= brightWhite %>",
     "list.highlightForeground": "<%= brightWhite %>",
     "list.hoverBackground": "<%= backgroundPrimary %>",
