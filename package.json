@@ -1,7 +1,7 @@
 {
   "name": "owlet",
   "displayName": "Owlet",
-  "description": "A VS Code theme modified from Night Owl",
+  "description": "A simple VSCode Theme, inspired by Night Owl ",
   "version": "0.0.2",
   "publisher": "itsjonq",
   "license": "SEE LICENSE IN LICENSE.md",
