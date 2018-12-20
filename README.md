@@ -18,6 +18,10 @@
 
 ![Dracula](https://raw.githubusercontent.com/ItsJonQ/owlet/master/images/owlet-dracula.jpg)
 
+### Night Owl
+
+![Night Owl](https://raw.githubusercontent.com/ItsJonQ/owlet/master/images/owlet-night-owl.jpg)
+
 ### One
 
 ![One](https://raw.githubusercontent.com/ItsJonQ/owlet/master/images/owlet-one.jpg)
