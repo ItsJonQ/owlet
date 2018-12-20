@@ -1,13 +1,13 @@
 const colors = require("../colors/default");
 
 const config = {
-  name: "Owlet (Default)",
+  name: "Owlet (Oceanic Next)",
   type: "dark"
 };
 
 const shades = {
-  background: "#1e222a",
-  text: "#737e83"
+  background: "#1b2b34",
+  text: "#73888d"
 };
 
 module.exports = {
