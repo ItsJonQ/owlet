@@ -38,7 +38,7 @@
   "categories": [
     "Themes"
   ],
-  "icon": "owlet.png",
+  "icon": "./images/owlet.png",
   "contributes": {
     "themes": [
       {
