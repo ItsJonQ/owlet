@@ -1,5 +1,9 @@
 const { darken, lighten } = require("polished");
-const { isDark } = require("./utils");
+const {
+  isDark,
+  getSelectionBackgroundColor,
+  getLineHighlightBackground
+} = require("./utils");
 
 // Sensible defaults
 const defaultConfig = {
@@ -71,7 +75,10 @@ function generateColorScheme(
     // Borders
     border: `${borderColor}11`,
     borderDark: `${borderColor}05`,
-    borderLight: `${borderColor}33`
+    borderLight: `${borderColor}33`,
+    // Computed
+    selectionBackground: getSelectionBackgroundColor(background),
+    highlightLineBackground: getLineHighlightBackground(background)
   };
 
   const remappedShades = {
@@ -94,7 +101,7 @@ function generateColorScheme(
     cursor: shadeConfig.textLight,
     selectionBackground: shadeConfig.lighter,
     quote: shadeConfig.quote,
-    textSelectionBackground: shadeConfig.light,
+    textSelectionBackground: shadeConfig.selectionBackground,
 
     // Borders
     focusBorder: shadeConfig.light,
@@ -118,6 +125,7 @@ function generateColorScheme(
 
     // Line Number
     editorLineNumber: shadeConfig.textDark,
+    highlightLineBackground: shadeConfig.highlightLineBackground,
 
     // StatusBar
     statusBarBackground: shadeConfig.background,

@@ -90,7 +90,7 @@
     "editor.findMatchHighlightBackground": "#2E3248",
     "editor.findRangeHighlightBackground": null,
     "editor.hoverHighlightBackground": "<%= magenta %>5a",
-    "editor.lineHighlightBackground": "#0003",
+    "editor.lineHighlightBackground": "<%= highlightLineBackground %>",
     "editor.lineHighlightBorder": null,
     "editorLink.activeForeground": null,
     "editor.rangeHighlightBackground": "<%= magenta %>5a",
