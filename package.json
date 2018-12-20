@@ -32,7 +32,7 @@
   "categories": [
     "Themes"
   ],
-  "icon": "owl-icon.png",
+  "icon": "owlet.png",
   "contributes": {
     "themes": [
       {
