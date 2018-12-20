@@ -169,6 +169,7 @@
     "titleBar.activeForeground": "#eeefff",
     "titleBar.inactiveBackground": "<%= tabInactiveBackground %>",
     "titleBar.inactiveForeground": null,
+    "titleBar.border": "<%= titleBarBorder %>",
     "notifications.background": "<%= backgroundPrimary %>",
     "notifications.foreground": "<%= brightWhite %>cc",
     "notificationLink.foreground": "<%= cyan %>",

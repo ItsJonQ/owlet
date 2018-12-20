@@ -75,7 +75,7 @@ function generateColorScheme(
     textQuote: darken(0.04, text),
     // Borders
     border: `${borderColor}11`,
-    borderDark: `${borderColor}05`,
+    borderDark: `${borderColor}06`,
     borderLight: `${borderColor}33`,
     // Computed
     selectionBackground: getSelectionBackgroundColor(background),
@@ -113,6 +113,7 @@ function generateColorScheme(
     statusBarBorder: shadeConfig.borderDark,
     tabBorder: shadeConfig.borderDark,
     tabBorderInactive: shadeConfig.border,
+    titleBarBorder: shadeConfig.borderDark,
     ruler: shadeConfig.text,
 
     // Badge
