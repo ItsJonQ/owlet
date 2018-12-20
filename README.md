@@ -18,6 +18,10 @@
 
 ![One](https://raw.githubusercontent.com/ItsJonQ/owlet/master/images/owlet-one.jpg)
 
+### Oceanic Next
+
+![Oceanic Next](https://raw.githubusercontent.com/ItsJonQ/owlet/master/images/owlet-oceanic-next.jpg)
+
 ### Palenight
 
 ![palenight](https://raw.githubusercontent.com/ItsJonQ/owlet/master/images/owlet-palenight.jpg)
