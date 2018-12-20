@@ -2,9 +2,9 @@
   "name": "Owlet (Default)",
   "type": "dark",
   "colors": {
-    "contrastActiveBorder": "#2d3139",
-    "contrastBorder": "#2d3139",
-    "focusBorder": "#2d3139",
+    "contrastActiveBorder": "#2d333f",
+    "contrastBorder": "#2d333f",
+    "focusBorder": "#2d333f",
     "foreground": "#d6deeb",
     "widget.shadow": "#1e222a",
     "selection.background": "#4373c2",
@@ -15,7 +15,7 @@
     "dropdown.background": "#1e222a",
     "dropdown.border": "#737e83",
     "dropdown.foreground": "#ffffffcc",
-    "input.background": "#141820",
+    "input.background": "#14171d",
     "input.border": "#737e83",
     "input.foreground": "#ffffffcc",
     "input.placeholderForeground": "#737e83",
@@ -28,9 +28,9 @@
     "inputValidation.warningBackground": "#675700F2",
     "inputValidation.warningBorder": "#FFCA28",
     "scrollbar.shadow": "#1e222a",
-    "scrollbarSlider.activeBackground": "#3c404880",
-    "scrollbarSlider.background": "#3c404880",
-    "scrollbarSlider.hoverBackground": "#3c404880",
+    "scrollbarSlider.activeBackground": "#3c445480",
+    "scrollbarSlider.background": "#3c445480",
+    "scrollbarSlider.hoverBackground": "#3c445480",
     "badge.background": "#737e83",
     "badge.foreground": "#ffffff",
     "progress.background": "#7e57c2",
@@ -47,7 +47,7 @@
     "list.highlightForeground": "#ffffff",
     "list.hoverBackground": "#1e222a",
     "list.hoverForeground": "#ffffff",
-    "list.inactiveSelectionBackground": "#2d3139",
+    "list.inactiveSelectionBackground": "#2d333f",
     "list.inactiveSelectionForeground": "#737e83",
     "activityBar.background": "#1e222a",
     "activityBar.dropBackground": "#737e83",
@@ -67,20 +67,20 @@
     "editorGroupHeader.noTabsBackground": "#1e222a",
     "editorGroupHeader.tabsBackground": "#1e222a",
     "editorGroupHeader.tabsBorder": "#262A39",
-    "tab.activeBackground": "#2d3139",
+    "tab.activeBackground": "#2d333f",
     "tab.activeForeground": "#d6deeb",
     "tab.border": "#272B3B",
     "tab.activeBorder": "#262A39",
     "tab.unfocusedActiveBorder": "#262A39",
-    "tab.inactiveBackground": "#141820",
+    "tab.inactiveBackground": "#14171d",
     "tab.inactiveForeground": "#737e83",
     "tab.unfocusedActiveForeground": "#737e83",
     "tab.unfocusedInactiveForeground": "#737e83",
     "editor.background": "#1e222a",
     "editor.foreground": "#d6deeb",
-    "editorLineNumber.foreground": "#555a6f",
+    "editorLineNumber.foreground": "#555d61",
     "editorLineNumber.activeForeground": "#C5E4FD",
-    "editorCursor.foreground": "#cad3e8",
+    "editorCursor.foreground": "#cbcfd1",
     "editor.selectionBackground": "#1d3b53",
     "editor.selectionHighlightBackground": "#737e8379",
     "editor.inactiveSelectionBackground": "#7e57c25a",
@@ -167,7 +167,7 @@
     "statusBarItem.prominentHoverBackground": "#202431",
     "titleBar.activeBackground": "#1e222a",
     "titleBar.activeForeground": "#eeefff",
-    "titleBar.inactiveBackground": "#141820",
+    "titleBar.inactiveBackground": "#14171d",
     "titleBar.inactiveForeground": null,
     "notifications.background": "#1e222a",
     "notifications.foreground": "#ffffffcc",
@@ -197,7 +197,7 @@
     "welcomePage.buttonBackground": "#1e222a",
     "welcomePage.buttonHoverBackground": "#1e222a",
     "walkThrough.embeddedEditorBackground": "#1e222a",
-    "gitDecoration.modifiedResourceForeground": "#cad3e8",
+    "gitDecoration.modifiedResourceForeground": "#cbcfd1",
     "gitDecoration.deletedResourceForeground": "#EF535090",
     "gitDecoration.untrackedResourceForeground": "#addb67ff",
     "gitDecoration.ignoredResourceForeground": "#395a75",
@@ -216,7 +216,7 @@
         "meta.diff.header.to-file"
       ],
       "settings": {
-        "foreground": "#cad3e8",
+        "foreground": "#cbcfd1",
         "fontStyle": ""
       }
     },
@@ -696,7 +696,7 @@
       "name": "Variable Property Other object property",
       "scope": ["variable.other.object.property"],
       "settings": {
-        "foreground": "#d7dbe0",
+        "foreground": "#d7dadc",
         "fontStyle": ""
       }
     },
@@ -1381,7 +1381,7 @@
       "name": "PHP Variables",
       "scope": ["variable.other.php", "variable.other.property.php"],
       "settings": {
-        "foreground": "#cad3e8"
+        "foreground": "#cbcfd1"
       }
     },
     {
@@ -1496,7 +1496,7 @@
         "source.css.sass meta.at-rule variable"
       ],
       "settings": {
-        "foreground": "#cad3e8"
+        "foreground": "#cbcfd1"
       }
     },
     {
@@ -1607,7 +1607,7 @@
       "name": "JavaScript Variable Other ReadWrite",
       "scope": ["variable.other.readwrite.js", "variable.parameter"],
       "settings": {
-        "foreground": "#d7dbe0"
+        "foreground": "#d7dadc"
       }
     },
     {

@@ -6,4 +6,13 @@ const config = {
   fontStyle: ""
 };
 
-module.exports = Object.assign(config, colors);
+const shades = {
+  background: "#1e222a",
+  text: "#737e83"
+};
+
+module.exports = {
+  config,
+  shades,
+  colors
+};
