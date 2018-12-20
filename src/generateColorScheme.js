@@ -1,4 +1,5 @@
 const { darken, lighten } = require("polished");
+const { isDark } = require("./utils");
 
 // Sensible defaults
 const defaultConfig = {
@@ -32,16 +33,6 @@ const defaultColors = {
   brightCyan: "#7fdbca",
   brightWhite: "#ffffff"
 };
-
-/**
- * Checks to see if the theme is dark.
- * @param {Object} config The theme config.
- * @returns {boolean} The result.
- */
-function isDark(config = defaultConfig) {
-  const { type } = config;
-  return type.toLowerCase() === "dark";
-}
 
 /**
  * Generates the color map used by our template.json file.

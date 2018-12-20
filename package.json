@@ -18,7 +18,7 @@
     "Accessible Theme"
   ],
   "scripts": {
-    "build": "npm run clean && node src/generate.js",
+    "build": "npm run clean && node src/index.js",
     "clean": "rm -rf themes",
     "start": "npm run build",
     "git:push": "git push --follow-tags",
@@ -41,7 +41,12 @@
       {
         "label": "Owlet (Default)",
         "uiTheme": "vs-dark",
-        "path": "./themes/owlet-theme-default.json"
+        "path": "owlet-theme-default.json"
+      },
+      {
+        "label": "Owlet (Palenight)",
+        "uiTheme": "vs-dark",
+        "path": "owlet-theme-palenight.json"
       }
     ]
   },
