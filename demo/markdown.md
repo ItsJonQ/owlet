@@ -1,6 +1,6 @@
-# Night Owl Theme
+# Owlet Theme
 
-> Night Owl theme for VS Code.
+> Owlet theme for VS Code.
 
 ![Preview](images/preview.gif)
 

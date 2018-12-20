@@ -1,26 +1,29 @@
 {
-  "name": "night-owl",
-  "displayName": "Night Owl",
-  "description": "A VS Code theme for the night owls out there. Works well in the daytime, too. Decisions were based on meaningful contrast for reading comprehension and for optimal razzle dazzle. ✨",
-  "version": "0.4.3",
-  "publisher": "sdras",
+  "name": "owlet",
+  "displayName": "Owlet",
+  "description": "A VS Code theme modified from Night Owl",
+  "version": "0.0.1",
+  "publisher": "itsjonq",
   "license": "SEE LICENSE IN LICENSE.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sdras/night-owl-vscode-theme"
+    "url": "https://github.com/itsjonq/owlet"
   },
   "keywords": [
     "Theme",
+    "Owlet",
     "Dark Theme",
     "Night Owl",
     "Night Theme",
     "Accessible Theme"
   ],
   "scripts": {
+    "build": "node src/index.js",
+    "start": "npm run build",
     "publish": "vsce publish"
   },
   "galleryBanner": {
-    "color": "#061526",
+    "color": "#1e222a",
     "theme": "dark"
   },
   "engines": {
@@ -33,15 +36,13 @@
   "contributes": {
     "themes": [
       {
-        "label": "Night Owl",
+        "label": "Owlet",
         "uiTheme": "vs-dark",
-        "path": "./themes/Night Owl-color-theme.json"
-      },
-      {
-        "label": "Night Owl No Italics",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Night Owl-color-theme-noitalic.json"
+        "path": "./themes/owlet-color-theme.json"
       }
     ]
+  },
+  "devDependencies": {
+    "lodash.template": "4.4.0"
   }
 }
