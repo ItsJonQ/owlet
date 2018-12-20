@@ -81,7 +81,7 @@
     "editorLineNumber.foreground": "<%= editorLineNumber %>",
     "editorLineNumber.activeForeground": "#C5E4FD",
     "editorCursor.foreground": "<%= cursor %>",
-    "editor.selectionBackground": "#1d3b53",
+    "editor.selectionBackground": "<%= textSelectionBackground %>",
     "editor.selectionHighlightBackground": "<%= textPrimary %>79",
     "editor.inactiveSelectionBackground": "<%= magenta %>5a",
     "editor.wordHighlightBackground": "#32374D",
