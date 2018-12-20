@@ -20,6 +20,7 @@
   "scripts": {
     "build": "node src/index.js",
     "start": "npm run build",
+    "postversion": "npm run release",
     "release": "vsce publish"
   },
   "galleryBanner": {
