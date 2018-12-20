@@ -1381,7 +1381,7 @@
       "name": "PHP Variables",
       "scope": ["variable.other.php", "variable.other.property.php"],
       "settings": {
-        "foreground": "#bec5d4"
+        "foreground": "#cad3e8"
       }
     },
     {
@@ -1496,7 +1496,7 @@
         "source.css.sass meta.at-rule variable"
       ],
       "settings": {
-        "foreground": "#bec5d4"
+        "foreground": "#cad3e8"
       }
     },
     {
@@ -1614,7 +1614,7 @@
       "name": "Support Class Component",
       "scope": ["support.class.component.js", "support.class.component.tsx"],
       "settings": {
-        "foreground": "#f78c6c",
+        "foreground": "#F78C6C",
         "fontStyle": ""
       }
     },

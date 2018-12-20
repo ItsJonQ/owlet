@@ -11,13 +11,21 @@ const themePath = path.resolve(__dirname, "./themes/*.js");
 const themeOutputPath = path.resolve(__dirname, "../themes");
 const templatePath = path.resolve(__dirname, `./${fileName}`);
 
+// Sensible defaults!
+const defaultProps = {
+  name: "Owlet",
+  type: "Dark",
+  fontStyle: ""
+};
+
 // Write
 glob(themePath, (err, files) => {
   files.forEach(file => {
     const fileThemeName = path.basename(file).split(".")[0];
     const themeTemplateData = fs.readFileSync(templatePath, "utf8");
     const colors = require(file);
-    const content = template(themeTemplateData)(colors);
+    const props = Object.assign({}, defaultProps, colors);
+    const content = template(themeTemplateData)(props);
 
     const destFilePath = path.resolve(
       themeOutputPath,

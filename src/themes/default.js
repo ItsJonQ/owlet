@@ -1,14 +1,9 @@
 const colors = require("../colors/default");
 
-const name = "Owlet (Default)";
-const type = "dark";
+const config = {
+  name: "Owlet (Default)",
+  type: "dark",
+  fontStyle: ""
+};
 
-const config = Object.assign(
-  {
-    name,
-    type
-  },
-  colors
-);
-
-module.exports = config;
+module.exports = Object.assign(config, colors);
