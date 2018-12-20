@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const template = require("lodash.template");
-const colors = require("./colors");
+const colors = require("./colors/default");
 
 const fileName = "owlet-color-theme.json";
 
