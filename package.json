@@ -47,6 +47,11 @@
         "path": "./themes/owlet-theme-default.json"
       },
       {
+        "label": "Owlet (Dracula)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/owlet-theme-dracula.json"
+      },
+      {
         "label": "Owlet (Palenight)",
         "uiTheme": "vs-dark",
         "path": "./themes/owlet-theme-palenight.json"
