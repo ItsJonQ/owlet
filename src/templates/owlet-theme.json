@@ -34,7 +34,7 @@
     "badge.background": "<%= textPrimary %>",
     "badge.foreground": "<%= brightWhite %>",
     "progress.background": "<%= magenta %>",
-    "breadcrumb.foreground": "#A599E9",
+    "breadcrumb.foreground": "<%= magenta %>",
     "breadcrumb.focusForeground": "<%= brightWhite %>",
     "breadcrumb.activeSelectionForeground": "<%= brightWhite %>",
     "breadcrumbPicker.background": "<%= breadcrumbBackground %>",
@@ -354,7 +354,7 @@
       "name": "Storage type",
       "scope": "storage.type",
       "settings": {
-        "foreground": "<%= blue %>"
+        "foreground": "<%= blue %>a5"
       }
     },
     {
@@ -390,7 +390,7 @@
       "name": "Meta Tag",
       "scope": ["punctuation.definition.tag", "meta.tag"],
       "settings": {
-        "foreground": "<%= brightCyan %>"
+        "foreground": "<%= white %>99"
       }
     },
     {
@@ -408,7 +408,7 @@
         "meta.tag.html"
       ],
       "settings": {
-        "foreground": "<%= brightCyan %>",
+        "foreground": "<%= blue %>",
         "fontStyle": ""
       }
     },
@@ -417,14 +417,14 @@
       "scope": "entity.other.attribute-name",
       "settings": {
         "fontStyle": "",
-        "foreground": "<%= green %>"
+        "foreground": "<%= cyan %>"
       }
     },
     {
       "name": "Entity Name Tag Custom",
       "scope": "entity.name.tag.custom",
       "settings": {
-        "foreground": "<%= green %>"
+        "foreground": "<%= cyan %>"
       }
     },
     {
@@ -445,7 +445,7 @@
       "name": "Library class/type",
       "scope": ["support.type", "support.class"],
       "settings": {
-        "foreground": "<%= green %>"
+        "foreground": "<%= teal %>"
       }
     },
     {
@@ -837,7 +837,7 @@
       "name": "Punctuation Section Embedded",
       "scope": "punctuation.section.embedded",
       "settings": {
-        "foreground": "<%= red %>"
+        "foreground": "<%= blue %>"
       }
     },
     {
@@ -1615,7 +1615,7 @@
       "name": "Support Class Component",
       "scope": ["support.class.component.js", "support.class.component.tsx"],
       "settings": {
-        "foreground": "<%= orange %>",
+        "foreground": "<%= teal %>",
         "fontStyle": ""
       }
     },

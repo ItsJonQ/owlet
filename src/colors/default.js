@@ -20,7 +20,8 @@ const colors = {
   gold: "#ecc48d",
   softBlue: "#78ccf0",
   softMagenta: "#c789d6",
-  pink: "#ff869a"
+  pink: "#ff869a",
+  teal: "#4ec9b0"
 };
 
 module.exports = colors;

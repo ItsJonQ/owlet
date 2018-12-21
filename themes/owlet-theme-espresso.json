@@ -34,7 +34,7 @@
     "badge.background": "#877e79",
     "badge.foreground": "#ffffff",
     "progress.background": "#7e57c2",
-    "breadcrumb.foreground": "#A599E9",
+    "breadcrumb.foreground": "#7e57c2",
     "breadcrumb.focusForeground": "#ffffff",
     "breadcrumb.activeSelectionForeground": "#ffffff",
     "breadcrumbPicker.background": "#0f0d0a",
@@ -172,7 +172,7 @@
     "titleBar.border": "#ffffff06",
     "notifications.background": "#1d1813",
     "notifications.foreground": "#ffffffcc",
-    "notificationLink.foreground": "#80CBC4",
+    "notificationLink.foreground": "#78ccf0",
     "extensionButton.prominentForeground": "#ffffffcc",
     "extensionButton.prominentBackground": "#7e57c2cc",
     "extensionButton.prominentHoverBackground": "#7e57c2",
@@ -354,7 +354,7 @@
       "name": "Storage type",
       "scope": "storage.type",
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#82AAFFa5"
       }
     },
     {
@@ -390,7 +390,7 @@
       "name": "Meta Tag",
       "scope": ["punctuation.definition.tag", "meta.tag"],
       "settings": {
-        "foreground": "#7fdbca"
+        "foreground": "#d6deeb99"
       }
     },
     {
@@ -408,7 +408,7 @@
         "meta.tag.html"
       ],
       "settings": {
-        "foreground": "#7fdbca",
+        "foreground": "#82AAFF",
         "fontStyle": ""
       }
     },
@@ -417,14 +417,14 @@
       "scope": "entity.other.attribute-name",
       "settings": {
         "fontStyle": "",
-        "foreground": "#addb7b"
+        "foreground": "#78ccf0"
       }
     },
     {
       "name": "Entity Name Tag Custom",
       "scope": "entity.name.tag.custom",
       "settings": {
-        "foreground": "#addb7b"
+        "foreground": "#78ccf0"
       }
     },
     {
@@ -438,14 +438,14 @@
       "name": "Support Constant Property Value meta",
       "scope": "support.constant.meta.property-value",
       "settings": {
-        "foreground": "#7fdbca"
+        "foreground": "#78ccf0"
       }
     },
     {
       "name": "Library class/type",
       "scope": ["support.type", "support.class"],
       "settings": {
-        "foreground": "#addb7b"
+        "foreground": "#4ec9b0"
       }
     },
     {
@@ -475,7 +475,7 @@
       "name": "Keyword Operator",
       "scope": "keyword.operator",
       "settings": {
-        "foreground": "#7fdbca",
+        "foreground": "#78ccf0",
         "fontStyle": ""
       }
     },
@@ -583,7 +583,7 @@
       "name": "Variable Parameter Function",
       "scope": "variable.parameter.function",
       "settings": {
-        "foreground": "#7fdbca",
+        "foreground": "#78ccf0",
         "fontStyle": ""
       }
     },
@@ -596,7 +596,7 @@
         "meta.property-list entity.name.tag"
       ],
       "settings": {
-        "foreground": "#80CBC4",
+        "foreground": "#78ccf0",
         "fontStyle": ""
       }
     },
@@ -647,7 +647,7 @@
       "name": "Meta Property Name",
       "scope": "meta.property-name",
       "settings": {
-        "foreground": "#80CBC4"
+        "foreground": "#78ccf0"
       }
     },
     {
@@ -669,7 +669,7 @@
       "name": "Keyword Control Operator",
       "scope": "keyword.control.operator",
       "settings": {
-        "foreground": "#7fdbca"
+        "foreground": "#78ccf0"
       }
     },
     {
@@ -690,7 +690,7 @@
         "variable.other.property"
       ],
       "settings": {
-        "foreground": "#7fdbca"
+        "foreground": "#78ccf0"
       }
     },
     {
@@ -764,7 +764,7 @@
         "keyword.control"
       ],
       "settings": {
-        "foreground": "#7fdbca"
+        "foreground": "#78ccf0"
       }
     },
     {
@@ -802,14 +802,14 @@
       "name": "Language Variable",
       "scope": "variable.language",
       "settings": {
-        "foreground": "#7fdbca"
+        "foreground": "#78ccf0"
       }
     },
     {
       "name": "Support Variable Property",
       "scope": "support.variable.property",
       "settings": {
-        "foreground": "#7fdbca"
+        "foreground": "#78ccf0"
       }
     },
     {
@@ -837,7 +837,7 @@
       "name": "Punctuation Section Embedded",
       "scope": "punctuation.section.embedded",
       "settings": {
-        "foreground": "#EF5350"
+        "foreground": "#82AAFF"
       }
     },
     {
@@ -907,7 +907,7 @@
       "name": "Raw Code",
       "scope": "raw",
       "settings": {
-        "foreground": "#80CBC4"
+        "foreground": "#78ccf0"
       }
     },
     {
@@ -928,7 +928,7 @@
       "name": "CoffeeScript Assignments",
       "scope": "variable.assignment.coffee",
       "settings": {
-        "foreground": "#7fdbca"
+        "foreground": "#78ccf0"
       }
     },
     {
@@ -974,7 +974,7 @@
         "entity.name.tag.wildcard.sass"
       ],
       "settings": {
-        "foreground": "#7fdbca"
+        "foreground": "#78ccf0"
       }
     },
     {
@@ -1228,7 +1228,7 @@
       "name": "Strings in JSON values",
       "scope": "string.quoted.double.json punctuation.definition.string.json",
       "settings": {
-        "foreground": "#80CBC4"
+        "foreground": "#78ccf0"
       }
     },
     {
@@ -1256,21 +1256,21 @@
       "name": "Ruby Hashkeys",
       "scope": "constant.language.symbol.hashkey.ruby",
       "settings": {
-        "foreground": "#7fdbca"
+        "foreground": "#78ccf0"
       }
     },
     {
       "name": "Ruby Symbols",
       "scope": "constant.language.symbol.ruby",
       "settings": {
-        "foreground": "#7fdbca"
+        "foreground": "#78ccf0"
       }
     },
     {
       "name": "LESS Tag names",
       "scope": "entity.name.tag.less",
       "settings": {
-        "foreground": "#7fdbca"
+        "foreground": "#78ccf0"
       }
     },
     {
@@ -1322,7 +1322,7 @@
       "name": "Markdown Raw Code + others",
       "scope": "markup.inline.raw.markdown",
       "settings": {
-        "foreground": "#80CBC4"
+        "foreground": "#78ccf0"
       }
     },
     {
@@ -1361,7 +1361,7 @@
       "name": "Markdown MetaData Punctuation",
       "scope": ["punctuation.definition.metadata.markdown"],
       "settings": {
-        "foreground": "#7fdbca"
+        "foreground": "#78ccf0"
       }
     },
     {
@@ -1514,7 +1514,7 @@
       "name": "Tag names in SASS",
       "scope": ["entity.name.tag.scss", "entity.name.tag.sass"],
       "settings": {
-        "foreground": "#7fdbca"
+        "foreground": "#78ccf0"
       }
     },
     {
@@ -1601,7 +1601,7 @@
       "name": "YAML Entity Name Tags",
       "scope": "entity.name.tag.yaml",
       "settings": {
-        "foreground": "#7fdbca"
+        "foreground": "#78ccf0"
       }
     },
     {
@@ -1615,7 +1615,7 @@
       "name": "Support Class Component",
       "scope": ["support.class.component.js", "support.class.component.tsx"],
       "settings": {
-        "foreground": "#F78C6C",
+        "foreground": "#4ec9b0",
         "fontStyle": ""
       }
     },

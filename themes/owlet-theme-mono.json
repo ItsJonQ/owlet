@@ -34,7 +34,7 @@
     "badge.background": "#888888",
     "badge.foreground": "#eeeeee",
     "progress.background": "#eeeeee",
-    "breadcrumb.foreground": "#A599E9",
+    "breadcrumb.foreground": "#eeeeee",
     "breadcrumb.focusForeground": "#eeeeee",
     "breadcrumb.activeSelectionForeground": "#eeeeee",
     "breadcrumbPicker.background": "#050505",
@@ -354,7 +354,7 @@
       "name": "Storage type",
       "scope": "storage.type",
       "settings": {
-        "foreground": "#eeeeee"
+        "foreground": "#eeeeeea5"
       }
     },
     {
@@ -390,7 +390,7 @@
       "name": "Meta Tag",
       "scope": ["punctuation.definition.tag", "meta.tag"],
       "settings": {
-        "foreground": "#eeeeee"
+        "foreground": "#eeeeee99"
       }
     },
     {
