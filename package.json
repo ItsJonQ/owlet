@@ -60,6 +60,21 @@
         "path": "./themes/owlet-theme-dracula.json"
       },
       {
+        "label": "Owlet (Espresso)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/owlet-theme-espresso.json"
+      },
+      {
+        "label": "Owlet (Matcha)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/owlet-theme-matcha.json"
+      },
+      {
+        "label": "Owlet (Mocha)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/owlet-theme-mocha.json"
+      },
+      {
         "label": "Owlet (Mono)",
         "uiTheme": "vs-dark",
         "path": "./themes/owlet-theme-mono.json"

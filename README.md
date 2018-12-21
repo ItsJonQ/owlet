@@ -24,6 +24,24 @@
 
 ![Dracula](https://raw.githubusercontent.com/ItsJonQ/owlet/master/images/owlet-dracula.jpg)
 
+### Espresso
+
+> If you want something **dark** and **brown**.
+
+![Espresso](https://raw.githubusercontent.com/ItsJonQ/owlet/master/images/owlet-espresso.jpg)
+
+### Matcha
+
+> If you want something **dark** and with a **hint** of **green**.
+
+![Matcha](https://raw.githubusercontent.com/ItsJonQ/owlet/master/images/owlet-matcha.jpg)
+
+### Mocha
+
+> If you want something **kinda dark** and **brown**.
+
+![Mocha](https://raw.githubusercontent.com/ItsJonQ/owlet/master/images/owlet-mocha.jpg)
+
 ### Mono
 
 > If you want something **dark** and **colourless**!
