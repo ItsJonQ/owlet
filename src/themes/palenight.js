@@ -1,5 +1,3 @@
-const colors = require("../colors/default");
-
 const config = {
   name: "Owlet (Palenight)",
   type: "dark"
@@ -11,6 +9,5 @@ const shades = {
 
 module.exports = {
   config,
-  shades,
-  colors
+  shades
 };

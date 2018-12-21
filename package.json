@@ -108,6 +108,11 @@
         "label": "Owlet (Purple)",
         "uiTheme": "vs-dark",
         "path": "./themes/owlet-theme-purple.json"
+      },
+      {
+        "label": "Owlet (Slate)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/owlet-theme-slate.json"
       }
     ]
   },

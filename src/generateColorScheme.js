@@ -1,11 +1,9 @@
 const { darken, lighten } = require("polished");
-const defaultColors = require("./colors/default");
+const defaultColors = require("./colors/refined");
 const {
   isDark,
   getButtonColors,
-  getSelectionBackgroundColor,
-  getLineHighlightBackground,
-  getListFocusBackground,
+  getShades,
   getTerminalColors
 } = require("./utils");
 
@@ -40,95 +38,79 @@ function generateColorScheme(
   }
 ) {
   const config = { ...defaultConfig, ...options.config };
-  const { background, text } = { ...defaultShades, ...options.shades };
+  const shades = { ...defaultShades, ...options.shades };
   const colors = { ...defaultColors, ...options.colors };
 
+  const { background } = shades;
   const isMono = config.isMono;
-  const borderColor = isDark(config) ? "#ffffff" : "#000000";
 
-  const shadeConfig = {
-    // Backgrounds
-    background,
-    dark: darken(0.045, background),
-    light: lighten(0.07, background),
-    lighter: lighten(0.14, background),
-    // Text
-    text,
-    textLight: lighten(0.325, text),
-    textLighter: lighten(0.37, text),
-    textDark: darken(0.125, text),
-    textQuote: darken(0.04, text),
-    textComment: darken(0.04, text),
-    // Borders
-    border: `${borderColor}11`,
-    borderDark: `${borderColor}06`,
-    borderLight: `${borderColor}33`,
-    // Computed
-    selectionBackground: getSelectionBackgroundColor(background),
-    highlightLineBackground: getLineHighlightBackground(background),
-    listFocusBackground: getListFocusBackground(background)
-  };
+  const shadeColors = getShades({ config, shades });
 
   const remappedShades = {
     // Background
-    backgroundPrimary: shadeConfig.background,
+    backgroundPrimary: shadeColors.background,
+    backgroundLighter: shadeColors.lighter,
 
     // Tabs and Windows
-    tabActiveBackground: shadeConfig.light,
-    tabInactiveBackground: shadeConfig.dark,
+    tabActiveBackground: shadeColors.light,
+    tabInactiveBackground: shadeColors.dark,
 
     // List
-    listInactiveSelectionBackground: shadeConfig.light,
-    listFocusBackground: shadeConfig.listFocusBackground,
+    listInactiveSelectionBackground: shadeColors.light,
+    listFocusBackground: shadeColors.listFocusBackground,
 
     // Text
-    textPrimary: shadeConfig.text,
-    textLight: shadeConfig.textLight,
-    textLighter: shadeConfig.textLighter,
-    textDark: shadeConfig.textDark,
-    textComment: shadeConfig.textComment,
-    textQuote: shadeConfig.textQuote,
-    cursor: shadeConfig.textLight,
-    selectionBackground: shadeConfig.lighter,
-    textSelectionBackground: shadeConfig.selectionBackground,
+    textPrimary: shadeColors.text,
+    textLight: shadeColors.textLight,
+    textLighter: shadeColors.textLighter,
+    textDark: shadeColors.textDark,
+    textComment: shadeColors.textComment,
+    textQuote: shadeColors.textQuote,
+    cursor: shadeColors.textLight,
+    highlightBackground: shadeColors.light,
+    selectionBackground: shadeColors.lighter,
+    textSelectionBackground: shadeColors.selectionBackground,
 
     // Borders
-    focusBorder: shadeConfig.light,
-    activityBorder: shadeConfig.border,
-    panelBorder: shadeConfig.borderLight,
-    sidebarBorder: shadeConfig.border,
-    statusBarBorder: shadeConfig.borderDark,
-    tabBorder: shadeConfig.borderDark,
-    tabBorderInactive: shadeConfig.border,
-    titleBarBorder: shadeConfig.borderDark,
-    ruler: shadeConfig.text,
+    focusBorder: shadeColors.light,
+    activityBorder: shadeColors.border,
+    panelBorder: shadeColors.borderLight,
+    sidebarBorder: shadeColors.border,
+    statusBarBorder: shadeColors.borderDark,
+    tabBorder: shadeColors.borderDark,
+    tabBorderInactive: shadeColors.border,
+    titleBarBorder: shadeColors.borderDark,
+    ruler: shadeColors.text,
 
     // Badge
-    activityBadge: shadeConfig.text,
+    activityBadge: shadeColors.text,
+
+    // Breadcrumb
+    breadcrumbBackground: shadeColors.dark,
 
     // Input
-    inputBackground: shadeConfig.dark,
+    inputBackground: shadeColors.dark,
 
     // Scrollbar
-    scrollbarShadow: shadeConfig.background,
-    scrollbarBackground: shadeConfig.lighter,
+    scrollbarShadow: shadeColors.background,
+    scrollbarBackground: shadeColors.lighter,
 
     // Line Number
-    editorLineNumber: shadeConfig.textDark,
-    editorLineNumberActive: shadeConfig.textLight,
-    highlightLineBackground: shadeConfig.highlightLineBackground,
+    editorLineNumber: shadeColors.textDark,
+    editorLineNumberActive: shadeColors.textLight,
+    highlightLineBackground: shadeColors.highlightLineBackground,
 
     // StatusBar
-    statusBarBackground: shadeConfig.background,
-    statusBarText: shadeConfig.text,
-    statusBarItemBackground: shadeConfig.dark,
+    statusBarBackground: shadeColors.background,
+    statusBarText: shadeColors.text,
+    statusBarItemBackground: shadeColors.dark,
 
     // Preview
-    peekViewResultBackground: shadeConfig.lighter,
+    peekViewResultBackground: shadeColors.lighter,
 
     // Widget
-    editorWidgetBackground: shadeConfig.light,
-    editorWidgetBorder: shadeConfig.dark
+    editorWidgetBackground: shadeColors.light,
+    editorWidgetBorder: shadeColors.dark
   };
 
   const buttonColors = getButtonColors({ background, colors, isMono });

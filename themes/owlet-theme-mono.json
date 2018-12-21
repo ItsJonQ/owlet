@@ -7,7 +7,7 @@
     "focusBorder": "#222",
     "foreground": "#eeeeee",
     "widget.shadow": "#101010",
-    "selection.background": "#4373c2",
+    "selection.background": "#343434",
     "errorForeground": "#EF5350",
     "button.background": "#363636",
     "button.foreground": "#eeeeeecc",
@@ -37,7 +37,7 @@
     "breadcrumb.foreground": "#A599E9",
     "breadcrumb.focusForeground": "#eeeeee",
     "breadcrumb.activeSelectionForeground": "#eeeeee",
-    "breadcrumbPicker.background": "#001122",
+    "breadcrumbPicker.background": "#050505",
     "list.activeSelectionBackground": "#88888860",
     "list.activeSelectionForeground": "#eeeeee",
     "list.invalidItemForeground": "#975f94",
@@ -82,15 +82,15 @@
     "editorLineNumber.activeForeground": "#dbdbdb",
     "editorCursor.foreground": "#dbdbdb",
     "editor.selectionBackground": "#2f2f2f",
-    "editor.selectionHighlightBackground": "#88888879",
+    "editor.selectionHighlightBackground": "#88888850",
     "editor.inactiveSelectionBackground": "#eeeeee5a",
-    "editor.wordHighlightBackground": "#32374D",
-    "editor.wordHighlightStrongBackground": "#2E3250",
-    "editor.findMatchBackground": "#88888879",
-    "editor.findMatchHighlightBackground": "#2E3248",
+    "editor.wordHighlightBackground": "#222",
+    "editor.wordHighlightStrongBackground": "#222",
+    "editor.findMatchBackground": "#88888850",
+    "editor.findMatchHighlightBackground": "#222",
     "editor.findRangeHighlightBackground": null,
     "editor.hoverHighlightBackground": "#eeeeee5a",
-    "editor.lineHighlightBackground": "#ffffff07",
+    "editor.lineHighlightBackground": "#ffffff08",
     "editor.lineHighlightBorder": null,
     "editorLink.activeForeground": null,
     "editor.rangeHighlightBackground": "#eeeeee5a",
@@ -109,10 +109,10 @@
     "editorWarning.foreground": "#b39554",
     "editorWarning.border": null,
     "editorGutter.background": "#101010",
-    "editorGutter.modifiedBackground": "#e2b93d",
-    "editorGutter.addedBackground": "#9CCC65",
+    "editorGutter.modifiedBackground": "#eeeeee",
+    "editorGutter.addedBackground": "#eeeeee",
     "editorGutter.deletedBackground": "#eeeeee",
-    "diffEditor.insertedTextBackground": "#99b76d23",
+    "diffEditor.insertedTextBackground": "#eeeeee23",
     "diffEditor.insertedTextBorder": "#eeeeee33",
     "diffEditor.removedTextBackground": "#eeeeee33",
     "diffEditor.removedTextBorder": "#eeeeee4d",
@@ -310,7 +310,7 @@
       "name": "RegExp String",
       "scope": ["string.regexp", "string.regexp keyword.other"],
       "settings": {
-        "foreground": "#5ca7e4"
+        "foreground": "#eeeeee"
       }
     },
     {
@@ -604,7 +604,7 @@
       "name": "Entity Name tag reference in stylesheets",
       "scope": "meta.property-list entity.name.tag.reference",
       "settings": {
-        "foreground": "#57eaf1"
+        "foreground": "#eeeeee"
       }
     },
     {
@@ -640,7 +640,7 @@
       "name": "Entity Other Attribute Name Id",
       "scope": "entity.other.attribute-name.id",
       "settings": {
-        "foreground": "#FAD430"
+        "foreground": "#eeeeee"
       }
     },
     {
@@ -914,7 +914,7 @@
       "name": "CoffeScript Variable Assignment",
       "scope": "variable.assignment.coffee",
       "settings": {
-        "foreground": "#31e1eb"
+        "foreground": "#eeeeee"
       }
     },
     {
@@ -949,7 +949,7 @@
       "name": "C# Namespaces",
       "scope": "entity.name.type.namespace.cs",
       "settings": {
-        "foreground": "#B2CCD6"
+        "foreground": "#eeeeee"
       }
     },
     {
@@ -1094,7 +1094,7 @@
       "name": "HTML Punctuation Definition Tag",
       "scope": "punctuation.definition.tag.html",
       "settings": {
-        "foreground": "#6ae9f0"
+        "foreground": "#eeeeee"
       }
     },
     {
@@ -1437,7 +1437,7 @@
         "meta.function-call.generic.python"
       ],
       "settings": {
-        "foreground": "#B2CCD6"
+        "foreground": "#eeeeee"
       }
     },
     {
@@ -1458,7 +1458,7 @@
       "name": "Python Language Variable",
       "scope": "source.python variable.language.special",
       "settings": {
-        "foreground": "#8EACE3"
+        "foreground": "#eeeeee"
       }
     },
     {

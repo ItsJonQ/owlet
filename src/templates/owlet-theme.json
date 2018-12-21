@@ -7,7 +7,7 @@
     "focusBorder": "<%= focusBorder %>",
     "foreground": "<%= white %>",
     "widget.shadow": "<%= backgroundPrimary %>",
-    "selection.background": "#4373c2",
+    "selection.background": "<%= backgroundLighter %>",
     "errorForeground": "#EF5350",
     "button.background": "<%= buttonBackground %>",
     "button.foreground": "<%= buttonText %>",
@@ -37,7 +37,7 @@
     "breadcrumb.foreground": "#A599E9",
     "breadcrumb.focusForeground": "<%= brightWhite %>",
     "breadcrumb.activeSelectionForeground": "<%= brightWhite %>",
-    "breadcrumbPicker.background": "#001122",
+    "breadcrumbPicker.background": "<%= breadcrumbBackground %>",
     "list.activeSelectionBackground": "<%= textPrimary %>60",
     "list.activeSelectionForeground": "<%= brightWhite %>",
     "list.invalidItemForeground": "#975f94",
@@ -82,12 +82,12 @@
     "editorLineNumber.activeForeground": "<%= editorLineNumberActive %>",
     "editorCursor.foreground": "<%= cursor %>",
     "editor.selectionBackground": "<%= textSelectionBackground %>",
-    "editor.selectionHighlightBackground": "<%= textPrimary %>79",
+    "editor.selectionHighlightBackground": "<%= textPrimary %>50",
     "editor.inactiveSelectionBackground": "<%= magenta %>5a",
-    "editor.wordHighlightBackground": "#32374D",
-    "editor.wordHighlightStrongBackground": "#2E3250",
-    "editor.findMatchBackground": "<%= textPrimary %>79",
-    "editor.findMatchHighlightBackground": "#2E3248",
+    "editor.wordHighlightBackground": "<%= highlightBackground %>",
+    "editor.wordHighlightStrongBackground": "<%= highlightBackground %>",
+    "editor.findMatchBackground": "<%= textPrimary %>50",
+    "editor.findMatchHighlightBackground": "<%= highlightBackground %>",
     "editor.findRangeHighlightBackground": null,
     "editor.hoverHighlightBackground": "<%= magenta %>5a",
     "editor.lineHighlightBackground": "<%= highlightLineBackground %>",
@@ -109,10 +109,10 @@
     "editorWarning.foreground": "#b39554",
     "editorWarning.border": null,
     "editorGutter.background": "<%= backgroundPrimary %>",
-    "editorGutter.modifiedBackground": "#e2b93d",
-    "editorGutter.addedBackground": "#9CCC65",
+    "editorGutter.modifiedBackground": "<%= gold %>",
+    "editorGutter.addedBackground": "<%= green %>",
     "editorGutter.deletedBackground": "<%= red %>",
-    "diffEditor.insertedTextBackground": "#99b76d23",
+    "diffEditor.insertedTextBackground": "<%= orange %>23",
     "diffEditor.insertedTextBorder": "<%= green %>33",
     "diffEditor.removedTextBackground": "<%= red %>33",
     "diffEditor.removedTextBorder": "<%= red %>4d",
@@ -310,7 +310,7 @@
       "name": "RegExp String",
       "scope": ["string.regexp", "string.regexp keyword.other"],
       "settings": {
-        "foreground": "#5ca7e4"
+        "foreground": "<%= blue %>"
       }
     },
     {
@@ -604,7 +604,7 @@
       "name": "Entity Name tag reference in stylesheets",
       "scope": "meta.property-list entity.name.tag.reference",
       "settings": {
-        "foreground": "#57eaf1"
+        "foreground": "<%= softBlue %>"
       }
     },
     {
@@ -640,7 +640,7 @@
       "name": "Entity Other Attribute Name Id",
       "scope": "entity.other.attribute-name.id",
       "settings": {
-        "foreground": "#FAD430"
+        "foreground": "<%= gold %>"
       }
     },
     {
@@ -914,7 +914,7 @@
       "name": "CoffeScript Variable Assignment",
       "scope": "variable.assignment.coffee",
       "settings": {
-        "foreground": "#31e1eb"
+        "foreground": "<%= softBlue %>"
       }
     },
     {
@@ -949,7 +949,7 @@
       "name": "C# Namespaces",
       "scope": "entity.name.type.namespace.cs",
       "settings": {
-        "foreground": "#B2CCD6"
+        "foreground": "<%= brightBlue %>"
       }
     },
     {
@@ -1094,7 +1094,7 @@
       "name": "HTML Punctuation Definition Tag",
       "scope": "punctuation.definition.tag.html",
       "settings": {
-        "foreground": "#6ae9f0"
+        "foreground": "<%= softBlue %>"
       }
     },
     {
@@ -1437,7 +1437,7 @@
         "meta.function-call.generic.python"
       ],
       "settings": {
-        "foreground": "#B2CCD6"
+        "foreground": "<%= softBlue %>"
       }
     },
     {
@@ -1458,7 +1458,7 @@
       "name": "Python Language Variable",
       "scope": "source.python variable.language.special",
       "settings": {
-        "foreground": "#8EACE3"
+        "foreground": "<%= blue %>"
       }
     },
     {

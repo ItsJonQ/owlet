@@ -1,5 +1,3 @@
-const colors = require("../colors/default");
-
 const config = {
   name: "Owlet (Mocha)",
   type: "dark"
@@ -12,6 +10,5 @@ const shades = {
 
 module.exports = {
   config,
-  shades,
-  colors
+  shades
 };

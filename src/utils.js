@@ -2,6 +2,7 @@ const defaultColors = require("./colors/default");
 const { darken, lighten } = require("polished");
 
 const BACKGROUND_COLOR = "#1e222a";
+const TEXT_COLOR = "#737e83";
 const FALLBACK_COLOR = "#1e222a";
 
 /**
@@ -9,7 +10,7 @@ const FALLBACK_COLOR = "#1e222a";
  * @param {Object} config The theme config.
  * @returns {boolean} The result.
  */
-function isDark(config = defaultConfig) {
+function isDark(config = { type: "dark" }) {
   const { type } = config;
   return type.toLowerCase() === "dark";
 }
@@ -35,7 +36,8 @@ function getSelectionBackgroundColor(color = FALLBACK_COLOR) {
 }
 
 function getLineHighlightBackground(color = FALLBACK_COLOR) {
-  return isTooDark(color) ? "#ffffff07" : "#0003";
+  // Note: We'll adjust this for light themes.
+  return isTooDark(color) ? "#ffffff08" : "#ffffff07";
 }
 
 function getListFocusBackground(color = FALLBACK_COLOR) {
@@ -84,10 +86,46 @@ function getTerminalColors({ background } = { background: BACKGROUND_COLOR }) {
   };
 }
 
+function getShades(
+  props = {
+    config: { type: "dark" },
+    shades: { background: BACKGROUND_COLOR, text: TEXT_COLOR }
+  }
+) {
+  const { config, shades } = props;
+  const { background, text } = shades;
+  const borderColor = isDark(config) ? "#ffffff" : "#000000";
+
+  return {
+    // Backgrounds
+    background,
+    dark: darken(0.045, background),
+    light: lighten(0.07, background),
+    lighter: lighten(0.14, background),
+    // Text
+    text,
+    textLight: lighten(0.325, text),
+    textLighter: lighten(0.37, text),
+    textDark: darken(0.125, text),
+    textQuote: darken(0.04, text),
+    textComment: darken(0.04, text),
+    // Borders
+    border: `${borderColor}11`,
+    borderDark: `${borderColor}06`,
+    borderLight: `${borderColor}33`,
+    // Computed
+    selectionBackground: getSelectionBackgroundColor(background),
+    highlightLineBackground: getLineHighlightBackground(background),
+    listFocusBackground: getListFocusBackground(background),
+    ...config
+  };
+}
+
 module.exports = {
   getButtonColors,
   getTerminalColors,
   getSelectionBackgroundColor,
+  getShades,
   getLineHighlightBackground,
   getListFocusBackground,
   isTooDark,
