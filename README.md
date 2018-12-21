@@ -78,6 +78,12 @@
 
 ![purple](https://raw.githubusercontent.com/ItsJonQ/owlet/master/images/owlet-purple.jpg)
 
+### Slate
+
+> If you want something **dark** and with a **hint** of **blue**.
+
+![slate](https://raw.githubusercontent.com/ItsJonQ/owlet/master/images/owlet-blue.jpg)
+
 The font in the above screenshots is [SF Mono](http://osxdaily.com/2018/01/07/use-sf-mono-font-mac/).
 
 ## Simple
