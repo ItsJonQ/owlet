@@ -140,7 +140,7 @@
     "peekViewResult.selectionBackground": "#454c69",
     "peekViewResult.selectionForeground": "#737e83",
     "peekViewTitle.background": "#292d3e",
-    "peekViewTitleDescription.foreground": "#697098",
+    "peekViewTitleDescription.foreground": "#697478",
     "peekViewTitleLabel.foreground": "#737e83",
     "merge.currentHeaderBackground": "#737e83",
     "merge.currentContentBackground": null,
@@ -899,7 +899,7 @@
       "name": "Quote",
       "scope": "quote",
       "settings": {
-        "foreground": "#697098",
+        "foreground": "#697478",
         "fontStyle": ""
       }
     },
@@ -1291,7 +1291,7 @@
       "name": "Markdown Headings",
       "scope": "markup.heading.markdown",
       "settings": {
-        "foreground": "#82b1ff"
+        "foreground": "#82AAFF"
       }
     },
     {
@@ -1314,7 +1314,7 @@
       "name": "Markdown Quote + others",
       "scope": "markup.quote.markdown",
       "settings": {
-        "foreground": "#697098",
+        "foreground": "#697478",
         "fontStyle": ""
       }
     },
@@ -1354,7 +1354,7 @@
         "meta.link.inline.markdown punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#82b1ff"
+        "foreground": "#82AAFF"
       }
     },
     {
@@ -1368,7 +1368,7 @@
       "name": "Markdown List Punctuation",
       "scope": ["beginning.punctuation.definition.list.markdown"],
       "settings": {
-        "foreground": "#82b1ff"
+        "foreground": "#82AAFF"
       }
     },
     {

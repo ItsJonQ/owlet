@@ -24,6 +24,12 @@
 
 ![Dracula](https://raw.githubusercontent.com/ItsJonQ/owlet/master/images/owlet-dracula.jpg)
 
+### Mono
+
+> If you want something **dark** and **colourless**!
+
+![Mono](https://raw.githubusercontent.com/ItsJonQ/owlet/master/images/owlet-mono.jpg)
+
 ### Night Owl
 
 > If you want something **dark**, **blue**, and **awesome**.

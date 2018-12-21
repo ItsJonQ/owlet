@@ -87,9 +87,9 @@ function generateColorScheme(
     textLighter: shadeConfig.textLighter,
     textDark: shadeConfig.textDark,
     textComment: shadeConfig.textComment,
+    textQuote: shadeConfig.textQuote,
     cursor: shadeConfig.textLight,
     selectionBackground: shadeConfig.lighter,
-    quote: shadeConfig.quote,
     textSelectionBackground: shadeConfig.selectionBackground,
 
     // Borders
