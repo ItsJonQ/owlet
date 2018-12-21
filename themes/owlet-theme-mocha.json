@@ -7,7 +7,7 @@
     "focusBorder": "#41372c",
     "foreground": "#d6deeb",
     "widget.shadow": "#2c251e",
-    "selection.background": "#56493b",
+    "selection.background": "#877e7955",
     "errorForeground": "#EF5350",
     "button.background": "#7e57c2cc",
     "button.foreground": "#ffffffcc",

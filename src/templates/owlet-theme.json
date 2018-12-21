@@ -7,7 +7,7 @@
     "focusBorder": "<%= focusBorder %>",
     "foreground": "<%= white %>",
     "widget.shadow": "<%= backgroundPrimary %>",
-    "selection.background": "<%= backgroundLighter %>",
+    "selection.background": "<%= textPrimary %>55",
     "errorForeground": "#EF5350",
     "button.background": "<%= buttonBackground %>",
     "button.foreground": "<%= buttonText %>",
