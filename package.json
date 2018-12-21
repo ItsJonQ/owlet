@@ -10,18 +10,23 @@
     "url": "https://github.com/itsjonq/owlet"
   },
   "keywords": [
-    "Theme",
-    "Owlet",
-    "One",
     "Charcoal",
-    "Oceanic",
-    "Purple",
-    "Palenight",
-    "One",
     "Dark One",
     "Dark Theme",
+    "Dracula",
+    "Espresso",
+    "Matcha",
+    "Mocha",
+    "Mono",
     "Night Owl",
-    "Night Theme"
+    "Night Theme",
+    "Oceanic",
+    "One",
+    "One",
+    "Owlet",
+    "Palenight",
+    "Purple",
+    "Theme"
   ],
   "scripts": {
     "build": "npm run clean && node src/index.js",
