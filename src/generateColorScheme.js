@@ -1,42 +1,26 @@
 const { darken, lighten } = require("polished");
+const defaultColors = require("./colors/default");
 const {
   isDark,
+  getButtonColors,
   getSelectionBackgroundColor,
   getLineHighlightBackground,
-  getListFocusBackground
+  getListFocusBackground,
+  getTerminalColors
 } = require("./utils");
 
 // Sensible defaults
 const defaultConfig = {
   name: "Owlet",
   type: "Dark",
-  fontStyle: ""
+  fontStyle: "",
+  isMono: false
 };
 
 const defaultShades = {
   // Background + text are the key co'ors
   background: "#1e222a",
   text: "#737e83"
-};
-
-// These are the "Base16" colors we're to be using in our theme,
-const defaultColors = {
-  // Base
-  red: "#EF5350",
-  green: "#addb67",
-  yellow: "#ffcb8b",
-  blue: "#82AAFF",
-  magenta: "#7e57c2",
-  orange: "#F78C6C",
-  cyan: "#80CBC4",
-  white: "#d6deeb",
-  // Bright
-  brightRed: "#ff5874",
-  brightGreen: "#d9f5dd",
-  brightYellow: "#ffeb95",
-  brightMagenta: "#c792ea",
-  brightCyan: "#7fdbca",
-  brightWhite: "#ffffff"
 };
 
 /**
@@ -59,6 +43,7 @@ function generateColorScheme(
   const { background, text } = { ...defaultShades, ...options.shades };
   const colors = { ...defaultColors, ...options.colors };
 
+  const isMono = config.isMono;
   const borderColor = isDark(config) ? "#ffffff" : "#000000";
 
   const shadeConfig = {
@@ -73,6 +58,7 @@ function generateColorScheme(
     textLighter: lighten(0.37, text),
     textDark: darken(0.125, text),
     textQuote: darken(0.04, text),
+    textComment: darken(0.04, text),
     // Borders
     border: `${borderColor}11`,
     borderDark: `${borderColor}06`,
@@ -100,6 +86,7 @@ function generateColorScheme(
     textLight: shadeConfig.textLight,
     textLighter: shadeConfig.textLighter,
     textDark: shadeConfig.textDark,
+    textComment: shadeConfig.textComment,
     cursor: shadeConfig.textLight,
     selectionBackground: shadeConfig.lighter,
     quote: shadeConfig.quote,
@@ -128,6 +115,7 @@ function generateColorScheme(
 
     // Line Number
     editorLineNumber: shadeConfig.textDark,
+    editorLineNumberActive: shadeConfig.textLight,
     highlightLineBackground: shadeConfig.highlightLineBackground,
 
     // StatusBar
@@ -143,22 +131,15 @@ function generateColorScheme(
     editorWidgetBorder: shadeConfig.dark
   };
 
-  // These are special colors only for the Terminal. Ideally, we'd want to
-  // be using the same Base16 colors.
-  // These will most likely be removed in the future.
-  const termColors = {
-    termRed: colors.red,
-    termCyan: "#21c7a8",
-    termGreen: "#22da6e",
-    termBlack: "#575656",
-    termYellow: colors.green
-  };
+  const buttonColors = getButtonColors({ background, colors, isMono });
+  const terminalColors = getTerminalColors({ background });
 
   return {
     ...config,
     ...remappedShades,
     ...colors,
-    ...termColors
+    ...terminalColors,
+    ...buttonColors
   };
 }
 

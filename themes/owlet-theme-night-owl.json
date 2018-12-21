@@ -79,7 +79,7 @@
     "editor.background": "#011627",
     "editor.foreground": "#d6deeb",
     "editorLineNumber.foreground": "#555d61",
-    "editorLineNumber.activeForeground": "#C5E4FD",
+    "editorLineNumber.activeForeground": "#cbcfd1",
     "editorCursor.foreground": "#cbcfd1",
     "editor.selectionBackground": "#033863",
     "editor.selectionHighlightBackground": "#737e8379",
@@ -157,10 +157,10 @@
     "statusBar.border": "#ffffff06",
     "statusBar.debuggingBackground": "#000911",
     "statusBar.debuggingForeground": null,
-    "statusBar.debuggingBorder": "#1F2330",
+    "statusBar.debuggingBorder": "#ffffff06",
     "statusBar.noFolderForeground": null,
     "statusBar.noFolderBackground": "#011627",
-    "statusBar.noFolderBorder": "#25293A",
+    "statusBar.noFolderBorder": "#ffffff06",
     "statusBarItem.activeBackground": "#000911",
     "statusBarItem.hoverBackground": "#000911",
     "statusBarItem.prominentBackground": "#000911",
@@ -185,7 +185,7 @@
     "terminal.ansiGreen": "#22da6e",
     "terminal.ansiMagenta": "#c792ea",
     "terminal.ansiRed": "#EF5350",
-    "terminal.ansiYellow": "#addb67",
+    "terminal.ansiYellow": "#ecc48d",
     "terminal.ansiBrightWhite": "#ffffff",
     "terminal.ansiBrightBlack": "#575656",
     "terminal.ansiBrightBlue": "#82AAFF",
@@ -248,7 +248,7 @@
       "name": "Comment",
       "scope": "comment",
       "settings": {
-        "foreground": "#637777",
+        "foreground": "#697478",
         "fontStyle": ""
       }
     },
@@ -526,7 +526,7 @@
       "name": "Double-Slashed Comment",
       "scope": "comment.line.double-slash",
       "settings": {
-        "foreground": "#637777"
+        "foreground": "#697478"
       }
     },
     {
@@ -823,7 +823,7 @@
       "name": "Variable Interpolation",
       "scope": "variable.interpolation",
       "settings": {
-        "foreground": "#ec5f67"
+        "foreground": "#ff5874"
       }
     },
     {
@@ -837,7 +837,7 @@
       "name": "Punctuation Section Embedded",
       "scope": "punctuation.section.embedded",
       "settings": {
-        "foreground": "#d3423e"
+        "foreground": "#EF5350"
       }
     },
     {
@@ -869,7 +869,7 @@
       "name": "Template Strings",
       "scope": "string.template meta.template.expression",
       "settings": {
-        "foreground": "#d3423e"
+        "foreground": "#EF5350"
       }
     },
     {
@@ -961,7 +961,7 @@
         "support.constant.property-value.css"
       ],
       "settings": {
-        "foreground": "#ff6363",
+        "foreground": "#ff5874",
         "fontStyle": ""
       }
     },
@@ -1166,7 +1166,7 @@
       "name": "JavaScript Variable Parameter Function",
       "scope": "variable.parameter.function.js",
       "settings": {
-        "foreground": "#7986E7"
+        "foreground": "#82AAFF"
       }
     },
     {

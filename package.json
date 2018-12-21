@@ -60,6 +60,11 @@
         "path": "./themes/owlet-theme-dracula.json"
       },
       {
+        "label": "Owlet (Mono)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/owlet-theme-mono.json"
+      },
+      {
         "label": "Owlet (Night Owl)",
         "uiTheme": "vs-dark",
         "path": "./themes/owlet-theme-night-owl.json"
