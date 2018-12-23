@@ -138,3 +138,7 @@ module.exports = {
 ```
 
 The theme is generated into `/themes/`, with it's details added to `package.json` - ready for publishing!
+
+## See Also
+
+- [Dark Refined Theme](https://github.com/ItsJonQ/dark-refined)
