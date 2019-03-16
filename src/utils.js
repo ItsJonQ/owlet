@@ -99,6 +99,7 @@ function getShades(
   return {
     // Backgrounds
     background,
+    slightlyDark: darken(0.025, background),
     dark: darken(0.045, background),
     light: lighten(0.07, background),
     lighter: lighten(0.14, background),

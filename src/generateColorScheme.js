@@ -47,7 +47,7 @@ function generateColorScheme(
 
     // Tabs and Windows
     tabActiveBackground: shadeColors.light,
-    tabInactiveBackground: shadeColors.dark,
+    tabInactiveBackground: shadeColors.slightlyDark,
 
     // List
     listInactiveSelectionBackground: shadeColors.light,

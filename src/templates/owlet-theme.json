@@ -201,7 +201,7 @@
     "gitDecoration.modifiedResourceForeground": "<%= textLight %>",
     "gitDecoration.deletedResourceForeground": "<%= red %>90",
     "gitDecoration.untrackedResourceForeground": "<%= green %>ff",
-    "gitDecoration.ignoredResourceForeground": "#395a75",
+    "gitDecoration.ignoredResourceForeground": "<%= textLight %>55",
     "gitDecoration.conflictingResourceForeground": "<%= brightYellow %>cc",
     "source.elm": "<%= textPrimary %>",
     "string.quoted.single.js": "<%= brightWhite %>",

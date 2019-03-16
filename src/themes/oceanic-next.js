@@ -5,7 +5,7 @@ const config = {
 
 const shades = {
   background: "#1b2b34",
-  text: "#73888d"
+  text: "#7388a1"
 };
 
 module.exports = {
