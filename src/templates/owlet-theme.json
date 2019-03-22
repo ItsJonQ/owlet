@@ -37,7 +37,7 @@
     "breadcrumb.foreground": "<%= textLight %>",
     "breadcrumb.focusForeground": "<%= textLighter %>",
     "breadcrumb.activeSelectionForeground": "<%= textLighter %>",
-    "breadcrumbPicker.background": "<%= breadcrumbBackground %>",
+    "breadcrumbPicker.background": "<%= backgroundPrimary %>",
     "list.activeSelectionBackground": "<%= textPrimary %>60",
     "list.activeSelectionForeground": "<%= brightWhite %>",
     "list.invalidItemForeground": "#975f94",
