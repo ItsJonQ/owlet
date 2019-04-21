@@ -100,6 +100,11 @@
         "path": "./themes/owlet-theme-one.json"
       },
       {
+        "label": "Owlet (Outrun)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/owlet-theme-outrun.json"
+      },
+      {
         "label": "Owlet (Palenight)",
         "uiTheme": "vs-dark",
         "path": "./themes/owlet-theme-palenight.json"

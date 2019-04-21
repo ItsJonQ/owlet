@@ -37,7 +37,7 @@
     "breadcrumb.foreground": "#d5d2d0",
     "breadcrumb.focusForeground": "#e0dedd",
     "breadcrumb.activeSelectionForeground": "#e0dedd",
-    "breadcrumbPicker.background": "#1e1a15",
+    "breadcrumbPicker.background": "#2c251e",
     "list.activeSelectionBackground": "#877e7960",
     "list.activeSelectionForeground": "#ffffff",
     "list.invalidItemForeground": "#975f94",
