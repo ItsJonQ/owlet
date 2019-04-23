@@ -118,6 +118,11 @@
         "label": "Owlet (Slate)",
         "uiTheme": "vs-dark",
         "path": "./themes/owlet-theme-slate.json"
+      },
+      {
+        "label": "Owlet (Solarized)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/owlet-theme-solarized.json"
       }
     ]
   },
