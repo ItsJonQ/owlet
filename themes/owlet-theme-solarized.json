@@ -205,7 +205,7 @@
     "gitDecoration.conflictingResourceForeground": "#ffeb95cc",
     "source.elm": "#85a5b4",
     "string.quoted.single.js": "#ffffff",
-    "meta.objectliteral.js": "#82AAFF"
+    "meta.objectliteral.js": "#96beff"
   },
   "tokenColors": [
     {
@@ -289,14 +289,14 @@
         "variable.other.constant"
       ],
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#96beff"
       }
     },
     {
       "name": "User-defined constant",
       "scope": ["constant.character", "constant.other"],
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#96beff"
       }
     },
     {
@@ -310,7 +310,7 @@
       "name": "RegExp String",
       "scope": ["string.regexp", "string.regexp keyword.other"],
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#96beff"
       }
     },
     {
@@ -354,7 +354,7 @@
       "name": "Storage type",
       "scope": "storage.type",
       "settings": {
-        "foreground": "#82AAFFa5"
+        "foreground": "#96beffa5"
       }
     },
     {
@@ -382,7 +382,7 @@
       "name": "Function name",
       "scope": "entity.name.function",
       "settings": {
-        "foreground": "#82AAFF",
+        "foreground": "#96beff",
         "fontStyle": ""
       }
     },
@@ -408,7 +408,7 @@
         "meta.tag.html"
       ],
       "settings": {
-        "foreground": "#82AAFF",
+        "foreground": "#96beff",
         "fontStyle": ""
       }
     },
@@ -431,7 +431,7 @@
       "name": "Library (function & constant)",
       "scope": ["support.function", "support.constant"],
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#96beff"
       }
     },
     {
@@ -712,7 +712,7 @@
       "name": "Entity Name Function",
       "scope": ["entity.name.function"],
       "settings": {
-        "foreground": "#82AAFF",
+        "foreground": "#96beff",
         "fontStyle": ""
       }
     },
@@ -816,7 +816,7 @@
       "name": "Variable Function",
       "scope": "variable.function",
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#96beff"
       }
     },
     {
@@ -830,14 +830,14 @@
       "name": "Meta Function Call",
       "scope": "meta.function-call",
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#96beff"
       }
     },
     {
       "name": "Punctuation Section Embedded",
       "scope": "punctuation.section.embedded",
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#96beff"
       }
     },
     {
@@ -942,7 +942,7 @@
       "name": "C# Classes & Storage types",
       "scope": ["entity.name.type.class.cs", "storage.type.cs"],
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#96beff"
       }
     },
     {
@@ -1001,7 +1001,7 @@
         "source.elixir meta.module.elixir entity.name.class.elixir"
       ],
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#96beff"
       }
     },
     {
@@ -1018,7 +1018,7 @@
         "source.elixir constant.other.keywords.elixir"
       ],
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#96beff"
       }
     },
     {
@@ -1116,7 +1116,7 @@
       "name": "JavaScript Method Declaration e.g. `constructor`",
       "scope": "meta.method.declaration storage.type.js",
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#96beff"
       }
     },
     {
@@ -1166,7 +1166,7 @@
       "name": "JavaScript Variable Parameter Function",
       "scope": "variable.parameter.function.js",
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#96beff"
       }
     },
     {
@@ -1291,7 +1291,7 @@
       "name": "Markdown Headings",
       "scope": "markup.heading.markdown",
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#96beff"
       }
     },
     {
@@ -1354,7 +1354,7 @@
         "meta.link.inline.markdown punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#96beff"
       }
     },
     {
@@ -1368,7 +1368,7 @@
       "name": "Markdown List Punctuation",
       "scope": ["beginning.punctuation.definition.list.markdown"],
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#96beff"
       }
     },
     {
@@ -1427,7 +1427,7 @@
         "meta.function-call.arguments.python"
       ],
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#96beff"
       }
     },
     {
@@ -1458,7 +1458,7 @@
       "name": "Python Language Variable",
       "scope": "source.python variable.language.special",
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#96beff"
       }
     },
     {
@@ -1487,7 +1487,7 @@
         "source.css.sass meta.at-rule variable"
       ],
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#96beff"
       }
     },
     {
@@ -1555,7 +1555,7 @@
       "name": "TypeScript[React] Node Classes",
       "scope": ["support.class.node.ts", "support.class.node.tsx"],
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#96beff"
       }
     },
     {
@@ -1587,14 +1587,14 @@
         "meta.decorator punctuation.decorator.tsx"
       ],
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#96beff"
       }
     },
     {
       "name": "TypeScript[React] Punctuation Decorators",
       "scope": "meta.tag.js meta.jsx.children.tsx",
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#96beff"
       }
     },
     {
@@ -1651,7 +1651,7 @@
         "meta.method.declaration storage.type.tsx"
       ],
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#96beff"
       }
     },
     {
